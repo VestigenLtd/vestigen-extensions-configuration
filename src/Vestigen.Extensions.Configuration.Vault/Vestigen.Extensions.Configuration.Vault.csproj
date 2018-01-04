@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.4;netstandard2.0</TargetFrameworks>
+    <Copyright>Copyright Vestigen 2018</Copyright>
+    <Authors>Vestigen</Authors>
+    <Company>Vestigen, Ltd.</Company>
+    <PackageProjectUrl>https://github.com/VestigenLtd/dotnet-extensions-configuration-vault</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/VestigenLtd/dotnet-extensions-configuration</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIconUrl>https://avatars2.githubusercontent.com/u/34891219?s=200</PackageIconUrl>
+    <PackageTags>vestigen extensions configuration hashicorp vault</PackageTags>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>0.0.0.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="1.1.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+  </ItemGroup>
+</Project>
