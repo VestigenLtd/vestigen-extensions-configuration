@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.Configuration;
 using Vestigen.Extensions.Configuration.Consul;
+using Vestigen.Extensions.Configuration.EncryptedJson;
 using Vestigen.Extensions.Configuration.Vault;
 
 namespace ConsoleApp
@@ -12,8 +13,9 @@ namespace ConsoleApp
             Console.WriteLine("Hello World!");
 
             var builder = new ConfigurationBuilder();
-            builder.AddJsonFile("configuration.json");
-            builder.AddJsonFile("environment.json");
+            builder.AddJsonFile("appsettings.json");
+            builder.AddJsonFile("appsettings.env.json", optional: true);
+            builder.AddEncryptedJsonFile(default(IConfigurationCryptographer), "appsettings.env.secured.json", optional: true);
             builder.AddCommandLine(new[]
             {
                 "ConsulServer",

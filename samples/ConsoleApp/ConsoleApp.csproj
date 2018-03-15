@@ -10,6 +10,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\Vestigen.Extensions.Configuration.Consul\Vestigen.Extensions.Configuration.Consul.csproj" />
+    <ProjectReference Include="..\..\src\vestigen.Extensions.Configuration.EncryptedJson\Vestigen.Extensions.Configuration.EncryptedJson.csproj" />
     <ProjectReference Include="..\..\src\Vestigen.Extensions.Configuration.Vault\Vestigen.Extensions.Configuration.Vault.csproj" />
   </ItemGroup>
 </Project>

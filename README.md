@@ -5,14 +5,14 @@ AppVeyor: Coming Soon
 
 Travis:   Coming Soon
 
-Configuration is a framework and set of abstractions for accessing key/value configuration values in an application using providers for multiple remote stores, such as Vault or Consul. Others such as Archaius, Zookeeper, and etcd are being considered for future development.
+Configuration is a framework and set of abstractions for accessing key/value configuration values in an application using providers for encrypted JSON and multiple remote stores, such as Vault or Consul. Others such as Archaius, Zookeeper, and etcd are being considered for future development.
 
 Overview
 --------
 
 This framework follows the same architectual model as the `Microsoft.Extensions.*` NuGet packages that are owned and maintained by the Microsoft ASP.NET team.
 
-This particular framework is a **downstream** package for which there are upstream packages on which to build, and should be considered as an extension to those in the `Microsoft.Extensions.Configuration.*` namespace.
+This particular framework is a **downstream** package and should be considered as an extension to the `Microsoft.Extensions.Configuration.*` namespace.
 
 Packages
 --------
@@ -23,8 +23,9 @@ The packages are published with unsigned assemblies.
 
 The packages produced from this repository are as follows:
 
-- Vestigen.Extensions.Configuration.Vault
+- Vestigen.Extensions.Configuration.EncryptedJson
 - Vestigen.Extensions.Configuration.Consul
+- Vestigen.Extensions.Configuration.Vault
 
 
 Samples
@@ -33,4 +34,3 @@ Samples
 See `samples/ConsoleApp` as an example of how to implement the package.
 
 Each provider will have it's own implementation specific details for the given framework in which it encapsulates. Viewing the test suites can assist with bootstraping a particular implementation.
-

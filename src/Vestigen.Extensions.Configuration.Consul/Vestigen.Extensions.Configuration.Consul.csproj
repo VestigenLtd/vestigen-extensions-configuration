@@ -4,7 +4,7 @@
     <Copyright>Copyright Vestigen 2018</Copyright>
     <Authors>Vestigen</Authors>
     <Company>Vestigen, Ltd.</Company>
-    <PackageProjectUrl>https://github.com/VestigenLtd/dotnet-extensions-configuration-consul</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/VestigenLtd/dotnet-extensions-configuration</PackageProjectUrl>
     <RepositoryUrl>https://github.com/VestigenLtd/dotnet-extensions-configuration</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageIconUrl>https://avatars2.githubusercontent.com/u/34891219?s=200</PackageIconUrl>
